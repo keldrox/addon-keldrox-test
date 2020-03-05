@@ -1,20 +1,8 @@
 <?php
-// Alias
-namespace AddonProductProperty\Services;
+namespace AddonKeldroxTest\Services;
 
-// Librerias
-use util\tools;
-
-/**
- * Clase para autoinstalar el modulo
- */
 class AddonInstall
 {
-    /**
-     * Instala los eventos
-     *
-     * @return void
-     */
     public static function event()
     {
         return array(
