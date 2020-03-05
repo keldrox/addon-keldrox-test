@@ -1,0 +1,16 @@
+{
+	"name": "oscdenox/addon-keldrox-test",
+	"version": "0.0.1",
+	"require": {
+		"php": ">=7.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"AddonKeldroxTest\\": ""
+		},
+		"exclude-from-classmap": [
+			"/Tests/"
+		]
+	},
+	"minimum-stability": "stable"
+}
